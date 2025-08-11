@@ -30,3 +30,11 @@ function mostrarLista() {
         listaHTML.appendChild(li); // lo agrega al <ul> de arriba
     }
 }
+//paso 4 de trello: Implementa una función para sortear
+function sortearAmigo() {
+    if (amigos.length === 0) { // para comprobar q la lista no este vacia
+        alert("No hay amigos para sortear. Agrega al menos uno."); // mensaje por si esta vacia
+        return; //aca detiene mientras siga vacia
+        
+    }
+}
