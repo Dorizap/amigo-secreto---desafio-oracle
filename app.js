@@ -13,3 +13,7 @@ function agregarAmigo() {
     console.log(amigos);
     vaciarBox();
 }
+
+function vaciarBox() {
+    document.getElementById('amigo').value = "";
+}
