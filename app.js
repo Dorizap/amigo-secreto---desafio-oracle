@@ -24,4 +24,7 @@ function mostrarLista() {
     let listaHTML = document.getElementById('listaAmigos'); //para traer del html el ul e integrarlo con mi lista
     listaHTML.innerHTML = "";//recorrer el ul, que no se repita nada
     
+    for (let recorrer = 0; recorrer < amigos.length; recorrer++) {//recorrer es 0 para que se emoiece a contar desde 0, ya q array empieza desde 0 y no 1. mientras recorrer sea menor que la lista, se sigue
+        
+    }
 }
