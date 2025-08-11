@@ -13,7 +13,8 @@ function agregarAmigo() {
 
     console.log(datoUsuario);//esto me sirve para ver todo en la consola
     console.log(amigos);
-    vaciarBox();//cuando se cumple la funcion se queda en blanco el cuadro de texto para ingresar otro nombre 
+    vaciarBox();//cuando se cumple la funcion se queda en blanco el cuadro de texto para ingresar otro nombre
+    mostrarLista(); //para ver el nombre agregado luego de agregarlo en input
 }
 
 function vaciarBox() { //esto es lo mismo de antes, es la funcion entera para que el espacio qede en bkanco
