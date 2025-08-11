@@ -25,6 +25,8 @@ function mostrarLista() {
     listaHTML.innerHTML = "";//recorrer el ul, que no se repita nada
     
     for (let recorrer = 0; recorrer < amigos.length; recorrer++) {//recorrer es 0 para que se emoiece a contar desde 0, ya q array empieza desde 0 y no 1. mientras recorrer sea menor que la lista, se sigue
-        
+        let li = document.createElement("li"); // asigna variable y crear la lista <li>
+        li.textContent = amigos[recorrer]; // asigna texto a la lista <>li
+        listaHTML.appendChild(li); // lo agrega al <ul> de arriba
     }
 }
