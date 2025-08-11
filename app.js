@@ -35,6 +35,6 @@ function sortearAmigo() {
     if (amigos.length === 0) { // para comprobar q la lista no este vacia
         alert("No hay amigos para sortear. Agrega al menos uno."); // mensaje por si esta vacia
         return; //aca detiene mientras siga vacia
-        
+        let indiceAleatorio = Math.floor(Math.random() * amigos.length); // crear el math para el indice aleatorio del arreglo
     }
 }
